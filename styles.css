@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 button {
   background-color: #e3b873;
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
@@ -49,6 +54,7 @@ header {
   line-height: 15px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .sect1 {
   background-image: url(images/p1.jpg);
@@ -76,4 +82,32 @@ header {
 }
 .current {
   color: #e3b873;
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1083px) {
+  .request {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1084px) and (min-width: 100px) {
+  nav,
+  .request {
+    display: none;
+  }
+  .phone {
+    color: white;
+    margin: 0;
+    padding: 0 0 0 40px;
+  }
+  .project {
+    margin: 0;
+    padding: 0 40px 0 0;
+  }
+  header {
+    height: 56px;
+  }
+  .container1 {
+    margin: 0 3px 0 3px;
+  }
 }

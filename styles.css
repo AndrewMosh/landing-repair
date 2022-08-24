@@ -3,12 +3,14 @@
 * {
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 button {
   background-color: #e3b873;
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
-  width: 200px;
-  height: 51px;
+  width: 161px;
+  height: 37px;
   border: none;
   color: white;
   text-transform: uppercase;
@@ -17,5 +19,31 @@ h1 {
   font-family: "Yeseva One", cursive;
   color: white;
   text-transform: uppercase;
-  background-color: rgb(155, 249, 249); /* потом удалить*/
+}
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+span {
+  color: #e3b873;
+}
+nav ul {
+  display: flex;
+}
+ul li {
+  color: white;
+}
+header {
+  background-color: #131313;
+  max-height: 83px;
+}
+.sect1 {
+  background-image: url(images/p1.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 {
+  display: flex;
 }

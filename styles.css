@@ -32,7 +32,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
+a:hover {
+  color: #e3b873;
+}
 ul li {
   list-style-type: none;
   margin-right: 47px;
@@ -65,8 +67,9 @@ header {
   display: block;
 }
 .phone {
-  text-decoration: underline;
+  color: #e3b873;
   margin: 0 30px 0 83px;
+  text-decoration: underline;
 }
 .project {
   margin-right: 108px;

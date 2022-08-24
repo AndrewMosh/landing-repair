@@ -1,5 +1,4 @@
 /* установка дефолтных настроек для элементов */
-
 * {
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
@@ -9,8 +8,6 @@
 button {
   background-color: #e3b873;
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
-  width: 161px;
-  height: 37px;
   border: none;
   color: white;
   text-transform: uppercase;
@@ -27,23 +24,28 @@ h1 {
 span {
   color: #e3b873;
 }
+
 nav ul {
   display: flex;
 }
-ul li {
-  color: white;
-  padding-left: 47px;
+a {
   text-decoration: none;
+  color: white;
+}
+ul li {
+  list-style-type: none;
+  margin-right: 47px;
 }
 header {
   background-color: #131313;
-  max-height: 83px;
+  height: 84px;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 400;
   font-style: normal;
   line-height: 15px;
-  padding: 37px 90px 36px 92px;
+  display: flex;
+  justify-content: center;
 }
 .sect1 {
   background-image: url(images/p1.jpg);
@@ -54,4 +56,17 @@ header {
 }
 .container1 {
   display: flex;
+  align-items: center;
+}
+.request {
+  width: 161px;
+  height: 37px;
+  display: block;
+}
+.phone {
+  text-decoration: underline;
+  margin: 0 30px 0 83px;
+}
+.project {
+  margin-right: 108px;
 }

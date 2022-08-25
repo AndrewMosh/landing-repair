@@ -21,7 +21,8 @@ button:hover {
 }
 h1,
 h2,
-h3 {
+h3,
+a {
   font-family: "Yeseva One", cursive;
   color: white;
   text-transform: uppercase;
@@ -38,6 +39,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 a:hover {
   color: #e3b873;
@@ -125,19 +127,58 @@ header {
 /*-------------------section 2------------------------------------*/
 .sect2 {
   background-color: #131313;
+  display: flex;
+  justify-content: center;
+}
+.container3 {
+  padding: 99px 0 50px 0;
+}
+.container3 a:not(.current) {
+  color: #ffffff4d;
+  font-size: 14px;
+  line-height: 19px;
+}
+.container3 a:nth-of-type(1) {
+  text-decoration: underline;
 }
 .container3 ul {
   justify-content: flex-end;
+  margin: 0 10px 52.68px 0;
 }
+
 .completed {
   display: flex;
+  gap: 50px;
+}
+
+.completed p {
+  font-size: 14px;
+  line-height: 26.73px;
+}
+.completed h2,
+.completed h3 {
+  color: #e3b873;
+}
+.completed h2 {
+  font-size: 27px;
+  line-height: 37.42px;
+  letter-spacing: -7%;
+}
+.subcompleted h2,
+.subcompleted p {
+  margin-bottom: 34px;
+}
+.subcompleted span {
+  font-size: 13px;
+  line-height: 21px;
 }
 .hall {
   max-width: 100%;
 }
 .info {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {

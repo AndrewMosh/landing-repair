@@ -49,6 +49,10 @@ ul li {
 .textwhite {
   color: white;
 }
+.textblack {
+  color: black;
+}
+/*----------------------header---------------------------*/
 header {
   background-color: #131313;
   height: 84px;
@@ -61,6 +65,7 @@ header {
   justify-content: center;
   position: relative;
 }
+/*-------------------section 1----------------------*/
 .sect1 {
   background-image: url(images/p1.jpg);
   background-color: rgba(0, 0, 0, 0.7);
@@ -85,6 +90,7 @@ header {
 }
 .project {
   margin-right: 108px;
+  color: #e3b873;
 }
 .current {
   color: #e3b873;
@@ -116,7 +122,9 @@ header {
   border: 1px solid white;
   font-style: italic;
 }
+/*-------------------section 2------------------------------------*/
 
+/*-----------------мобильная версия с 100px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
   .request {
     display: none;
@@ -177,6 +185,7 @@ header {
     max-width: 100%;
   }
 }
+/*-----------широкий экран более 2100px-----------------*/
 @media only screen and (min-width: 2100px) {
   .container2 {
     padding-left: 27%;

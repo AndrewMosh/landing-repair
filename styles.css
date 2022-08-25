@@ -90,7 +90,7 @@ header {
   color: #e3b873;
 }
 .container2 {
-  padding: 160px 87px 199px 89px;
+  padding: 180px 87px 199px 89px;
 }
 .container2 h1 {
   font-weight: 400;
@@ -175,5 +175,10 @@ header {
     width: 320px;
     height: 51px;
     max-width: 100%;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .container2 {
+    padding-left: 27%;
   }
 }

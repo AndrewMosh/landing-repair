@@ -124,14 +124,14 @@ header {
 }
 /*-------------------section 2------------------------------------*/
 
-/*-----------------мобильная версия с 100px по 1250px-------------*/
+/*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
   .request {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1084px) and (min-width: 100px) {
+@media only screen and (max-width: 1084px) and (min-width: 320px) {
   nav,
   .request {
     display: none;
@@ -152,7 +152,7 @@ header {
     margin: 0 3px 0 3px;
   }
 }
-@media only screen and (max-width: 700px) and (min-width: 100px) {
+@media only screen and (max-width: 700px) and (min-width: 320px) {
   .sect1 {
     height: 500px;
   }
@@ -185,6 +185,7 @@ header {
     max-width: 100%;
   }
 }
+
 /*-----------широкий экран более 2100px-----------------*/
 @media only screen and (min-width: 2100px) {
   .container2 {

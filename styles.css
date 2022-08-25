@@ -174,5 +174,6 @@ header {
   button {
     width: 320px;
     height: 51px;
+    max-width: 100%;
   }
 }

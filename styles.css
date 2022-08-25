@@ -19,7 +19,9 @@ button:hover {
   background-color: white;
   color: #e3b873;
 }
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Yeseva One", cursive;
   color: white;
   text-transform: uppercase;
@@ -28,11 +30,9 @@ section,
 header {
   margin: 0 auto;
 }
-span {
-  color: #e3b873;
-}
 
-nav ul {
+nav ul,
+ul {
   display: flex;
 }
 a {
@@ -123,7 +123,22 @@ header {
   font-style: italic;
 }
 /*-------------------section 2------------------------------------*/
-
+.sect2 {
+  background-color: #131313;
+}
+.container3 ul {
+  justify-content: flex-end;
+}
+.completed {
+  display: flex;
+}
+.hall {
+  max-width: 100%;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
   .request {

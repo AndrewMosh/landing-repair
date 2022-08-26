@@ -249,6 +249,9 @@ header {
   margin: 31px 0 62px 0;
   padding: 0;
 }
+.video img:hover {
+  transform: scale(1.1);
+}
 hr {
   width: 55px;
   border-radius: 30px;

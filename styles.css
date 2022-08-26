@@ -1,7 +1,8 @@
 /* установка дефолтных настроек для элементов */
 * {
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans";
+  font-style: normal;
   margin: 0;
   padding: 0;
 }
@@ -218,8 +219,58 @@ header {
   bottom: 0;
 }
 /*-------------------section 3-----------------------------------*/
+.sect3 {
+  position: relative;
+  top: -320px;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container4 p {
+  font-size: 18px;
+  padding: 0 373px 93px 374px;
+  text-align: center;
+  line-height: 36.83px;
+  font-weight: 400;
+}
+.video {
+  max-width: 100%;
+  width: 900px;
+  height: 520px;
+  background-image: url(images/video.png);
+  background-position: center;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 31px 0 62px 0;
+  padding: 0;
+}
+hr {
+  width: 55px;
+  border-radius: 30px;
+  border: 1px solid #e3b873;
+  margin-bottom: 34px;
+}
 form {
   display: flex;
+  gap: 58px;
+  margin-bottom: 39px;
+  width: 769px;
+}
+label {
+  color: #36363680;
+}
+input {
+  border-style: none none solid none;
+  border-color: #3636364d;
+  width: 231px;
+}
+input::placeholder {
+  color: #363636;
 }
 .label {
   cursor: pointer;
@@ -242,6 +293,10 @@ form {
 }
 .checkbox:checked + .fake::before {
   opacity: 1;
+}
+.text {
+  color: #181818;
+  font-size: 14px;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {

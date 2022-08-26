@@ -287,6 +287,7 @@ input::placeholder {
   height: 18px;
   background: #e3b873;
   color: #fff;
+  -webkit-text-fill-color: white;
   justify-content: center;
 }
 .fake::before {

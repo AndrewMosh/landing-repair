@@ -11,7 +11,7 @@ button {
   border: none;
   color: white;
   text-transform: uppercase;
-  width: 207px;
+  width: 200px;
   height: 51px;
   border-radius: 2px;
 }
@@ -216,6 +216,32 @@ header {
 .dots {
   position: absolute;
   bottom: 0;
+}
+/*-------------------section 3-----------------------------------*/
+form {
+  display: flex;
+}
+.label {
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+}
+.fake {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #e3b873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before {
+  content: "\2714";
+  opacity: 0;
+  transition: 0.2s;
+}
+.checkbox:checked + .fake::before {
+  opacity: 1;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {

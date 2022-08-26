@@ -171,6 +171,9 @@ header {
   line-height: 37.42px;
   letter-spacing: -7%;
 }
+.subcompleted {
+  position: relative;
+}
 .subcompleted h2,
 .subcompleted p {
   margin-bottom: 34px;
@@ -204,6 +207,10 @@ header {
 .active,
 .dot:hover {
   background-color: #ffffff;
+}
+.dots {
+  position: absolute;
+  bottom: 0;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
@@ -299,7 +306,12 @@ header {
   .container3 ul {
     display: none;
   }
-
+  .subcompleted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .subcompleted p br {
     display: none;
   }
@@ -322,7 +334,8 @@ header {
   }
   .info {
     text-align: left;
-    justify-content: center;
+    width: 340px;
+    margin: 0;
   }
   .info h3 {
     font-size: 14px;
@@ -332,6 +345,12 @@ header {
   }
   .dots {
     display: none;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  .dots {
+    position: static;
+    padding-top: 50px;
   }
 }
 

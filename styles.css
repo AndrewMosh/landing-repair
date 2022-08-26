@@ -183,10 +183,24 @@ header {
 .info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 34px;
+  gap: 27px;
 }
 .mobileimage {
   display: none;
+}
+.dot {
+  cursor: pointer;
+  height: 9px;
+  width: 9px;
+  margin: 0 5px;
+  background-color: #ffffff4d;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #ffffff;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
@@ -267,7 +281,7 @@ header {
     padding: 30px;
   }
 }
-
+/* responsive section 2*/
 @media only screen and (max-width: 874px) and (min-width: 320px) {
   .completed {
     display: flex;
@@ -303,11 +317,18 @@ header {
     margin: 70px 0 37px 0;
     max-width: 100%;
   }
+  .info {
+    text-align: left;
+    justify-content: center;
+  }
   .info h3 {
     font-size: 14px;
   }
   .info span {
     font-size: 11px;
+  }
+  .dots {
+    display: none;
   }
 }
 

@@ -269,6 +269,9 @@ input {
   border-color: #3636364d;
   width: 231px;
 }
+input:focus::placeholder {
+  visibility: hidden;
+}
 input::placeholder {
   color: #363636;
 }

@@ -231,7 +231,7 @@ header {
 }
 .container4 p {
   font-size: 18px;
-  padding: 0 373px 93px 374px;
+  padding-bottom: 93px;
   text-align: center;
   line-height: 36.83px;
   font-weight: 400;

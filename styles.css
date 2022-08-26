@@ -30,7 +30,6 @@ section,
 header,
 footer {
   margin: 0 auto;
-  max-width: 2500px; /*для широких экранов*/
 }
 
 nav ul,
@@ -198,11 +197,17 @@ header {
   cursor: pointer;
   height: 9px;
   width: 9px;
-  margin: 0 5px;
+  margin: 0 10px 1.5px 0;
   background-color: #ffffff4d;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+.arrow1 {
+  margin-right: 20px;
+}
+.arrow2 {
+  margin-left: 10px;
 }
 .active,
 .dot:hover {

@@ -272,6 +272,11 @@ input {
 input:focus::placeholder {
   visibility: hidden;
 }
+input:focus {
+  outline: none;
+  border: 3px solid #e3b873;
+  border-radius: 5px;
+}
 input::placeholder {
   color: #363636;
 }

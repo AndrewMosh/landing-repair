@@ -17,13 +17,13 @@ button {
   border-radius: 2px;
 }
 button:hover {
-  background-color: white;
+  background-color: rgb(236, 222, 212);
   color: #e3b873;
 }
 h1,
 h2,
 h3,
-a:not(.container1 ul a, .project) {
+a:not(.container1 ul a, .project, .phone) {
   font-family: "Yeseva One", cursive;
   text-transform: uppercase;
 }
@@ -71,6 +71,7 @@ header {
   justify-content: center;
   position: relative;
 }
+
 /*-------------------section 1----------------------*/
 .sect1 {
   background-image: url(images/p1.jpg);
@@ -147,12 +148,12 @@ header {
 .underlined {
   text-decoration: underline;
   color: #e3b873;
+  text-underline-offset: 7px;
 }
 .container3 ul {
   justify-content: flex-end;
   margin: 0 10px 52.68px 0;
 }
-
 .completed {
   display: flex;
   gap: 50px;

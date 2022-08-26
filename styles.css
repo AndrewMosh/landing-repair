@@ -22,14 +22,15 @@ button:hover {
 h1,
 h2,
 h3,
-a {
+a:not(.container1 ul a, .project) {
   font-family: "Yeseva One", cursive;
-  color: white;
   text-transform: uppercase;
 }
 section,
-header {
+header,
+footer {
   margin: 0 auto;
+  max-width: 2500px; /*для широких экранов*/
 }
 
 nav ul,
@@ -53,6 +54,9 @@ ul li {
 }
 .textblack {
   color: black;
+}
+.current {
+  color: #e3b873;
 }
 /*----------------------header---------------------------*/
 header {
@@ -94,9 +98,7 @@ header {
   margin-right: 108px;
   color: #e3b873;
 }
-.current {
-  color: #e3b873;
-}
+
 .container2 {
   padding: 180px 87px 199px 89px;
 }
@@ -142,8 +144,9 @@ header {
   font-size: 14px;
   line-height: 19px;
 }
-.container3 a:nth-of-type(1) {
+.underlined {
   text-decoration: underline;
+  color: #e3b873;
 }
 .container3 ul {
   justify-content: flex-end;

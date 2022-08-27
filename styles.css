@@ -37,7 +37,7 @@ h1,
 h2,
 h3,
 a:not(.container1 ul a, .project, .phone) {
-  font-family: "Yeseva One", cursive;
+  font-family: "Yeseva One";
   text-transform: uppercase;
 }
 section,
@@ -130,7 +130,7 @@ header {
   margin-bottom: 40px;
 }
 .container2 span {
-  font-family: "Yeseva One", cursive;
+  font-family: "Yeseva One";
   color: #e3b873;
 }
 .container2 button {
@@ -290,6 +290,7 @@ input {
   border-style: none none solid none;
   border-color: #3636364d;
   width: 231px;
+  padding-bottom: 8px;
 }
 input:focus::placeholder {
   visibility: hidden;

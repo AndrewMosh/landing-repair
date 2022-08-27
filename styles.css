@@ -1,7 +1,18 @@
+/************* шрифты ************/
+@font-face {
+  src: url("../fonts/NunitoSans-Regular.ttf");
+  font-family: "Nunito Sans";
+}
+
+@font-face {
+  src: url("../fonts/YesevaOne-Regular.ttf");
+  font-family: "Yeseva One";
+}
+
 /* установка дефолтных настроек для элементов */
 * {
   box-sizing: border-box;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", sans-serif;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -21,6 +32,7 @@ button:hover {
   background-color: rgb(236, 222, 212);
   color: #e3b873;
 }
+
 h1,
 h2,
 h3,
@@ -119,6 +131,7 @@ header {
 }
 .container2 span {
   font-family: "Yeseva One", cursive;
+  color: #e3b873;
 }
 .container2 button {
   margin-right: 20px;
@@ -226,15 +239,13 @@ header {
   bottom: 0;
 }
 /*-------------------section 3-----------------------------------*/
-.sect3 {
-  position: relative;
-  top: -320px;
-}
+
 .container4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -318px;
 }
 .container4 p {
   font-size: 18px;
@@ -243,6 +254,7 @@ header {
   line-height: 36.83px;
   font-weight: 400;
 }
+
 .video {
   max-width: 100%;
   width: 900px;

@@ -85,21 +85,11 @@ header {
   justify-content: center;
   position: relative;
 }
-
-/*-------------------section 1----------------------*/
-.sect1 {
-  background-image: url(images/p1.jpg);
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: darken;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 711px;
-}
-.container1 {
+.header-container {
   display: flex;
   align-items: center;
 }
-.request {
+.request-button {
   width: 161px;
   height: 37px;
   display: block;
@@ -109,35 +99,44 @@ header {
   margin: 0 30px 0 83px;
   text-decoration: underline;
 }
-.project {
+.project-logo {
   margin-right: 108px;
   color: #e3b873;
 }
+/*-------------------intro----------------------*/
+.section-intro {
+  background-image: url(images/p1.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 711px;
+}
 
-.container2 {
+.container-intro {
   padding: 180px 87px 199px 89px;
 }
-.container2 h1 {
+.container-intro h1 {
   font-weight: 400;
   font-size: 40px;
   line-height: 53px;
   margin-bottom: 40px;
 }
-.container2 p {
+.container-intro p {
   font-weight: 400px;
   font-size: 22px;
   font-style: normal;
   line-height: 36px;
   margin-bottom: 40px;
 }
-.container2 span {
+.container-intro span {
   font-family: "Yeseva One";
   color: #e3b873;
 }
-.container2 button {
+.container-intro button {
   margin-right: 20px;
 }
-.container2 button:nth-of-type(2) {
+.container-intro button:nth-of-type(2) {
   background-color: transparent;
   border: 1px solid white;
   font-style: italic;
@@ -145,17 +144,17 @@ header {
 .mobilebutton {
   display: none;
 }
-/*-------------------section 2------------------------------------*/
-.sect2 {
+/*-------------------completed projects------------------------------------*/
+.section-completed {
   background-color: #131313;
   display: flex;
   justify-content: center;
   height: 1074px;
 }
-.container3 {
+.container-completed {
   padding: 99px 0 50px 0;
 }
-.container3 a:not(.current) {
+.container-completed a:not(.current) {
   color: #ffffff4d;
   font-size: 14px;
   line-height: 19px;
@@ -165,7 +164,7 @@ header {
   color: #e3b873;
   text-underline-offset: 7px;
 }
-.container3 ul {
+.container-completed ul {
   justify-content: flex-end;
   margin: 0 10px 52.68px 0;
 }
@@ -198,11 +197,11 @@ header {
   font-size: 13px;
   line-height: 21px;
 }
-.hall {
+.hall-completed {
   max-width: 100%;
   max-height: 100%;
 }
-.info {
+.info-completed {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 27px;
@@ -213,7 +212,7 @@ header {
   display: none;
 }
 
-.dot {
+.dot-completed {
   cursor: pointer;
   height: 9px;
   width: 9px;
@@ -223,32 +222,32 @@ header {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.arrow1 {
+.arrow1-completed {
   margin-right: 20px;
 }
 
-.arrow2 {
+.arrow2-completed {
   margin-left: 10px;
 }
 
 .active,
-.dot:hover {
+.dot-completed:hover {
   background-color: #ffffff;
 }
-.dots {
+.dots-completed {
   position: absolute;
   bottom: 0;
 }
-/*-------------------section 3-----------------------------------*/
+/*-------------------online control-----------------------------------*/
 
-.container4 {
+.container-control {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: -318px;
 }
-.container4 p {
+.container-control p {
   font-size: 18px;
   padding-bottom: 93px;
   text-align: center;
@@ -256,7 +255,7 @@ header {
   font-weight: 400;
 }
 
-.video {
+.video-control {
   max-width: 100%;
   width: 900px;
   height: 520px;
@@ -269,7 +268,7 @@ header {
   margin: 0;
   padding: 0;
 }
-.video img:hover {
+.video-control img:hover {
   transform: scale(1.1);
 }
 hr {
@@ -335,14 +334,14 @@ input::placeholder {
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
-  .request {
+  .request-button {
     display: none;
   }
 }
 /*-----------адаптивный header------------*/
-@media only screen and (max-width: 1084px) and (min-width: 320px) {
+@media only screen and (max-width: 1235px) and (min-width: 320px) {
   nav,
-  .request {
+  .request-button {
     display: none;
   }
   .phone {
@@ -350,41 +349,41 @@ input::placeholder {
     margin: 0;
     padding: 0 0 0 40px;
   }
-  .project {
+  .project-logo {
     margin: 0;
     padding: 0 40px 0 0;
   }
   header {
     height: 56px;
   }
-  .container1 {
+  .header-container {
     margin: 0 3px 0 3px;
   }
 }
-/*--------------адаптивная секция 1-------------*/
+/*--------------адаптивная intro-------------*/
 @media only screen and (max-width: 700px) and (min-width: 320px) {
-  .sect1 {
+  .section-intro {
     height: 500px;
   }
-  .container2 {
+  .container-intro {
     padding: 85px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .container2 h1 {
+  .container-intro h1 {
     font-size: 23px;
     line-height: 132.83%;
     margin-bottom: 16px;
     padding-right: 40px;
   }
-  .container2 p {
+  .container-intro p {
     font-size: 14px;
     line-height: 135.84%;
     margin-bottom: 50px;
     padding-right: 15px;
   }
-  .container2 button {
+  .container-intro button {
     margin-right: 0;
     width: 339px;
     height: 51px;
@@ -397,13 +396,14 @@ input::placeholder {
     font-style: italic;
     margin-top: 26px;
   }
-  .container2 button:nth-of-type(2) {
+  .container-intro button:nth-of-type(2) {
     display: none;
   }
 }
 
+/**************** responsive completed projects******************/
 @media only screen and (max-width: 1220px) and (min-width: 873px) {
-  .hall {
+  .hall-completed {
     width: 50%;
     height: 50%;
   }
@@ -411,7 +411,6 @@ input::placeholder {
     padding: 30px;
   }
 }
-/**************** responsive section 2******************/
 @media only screen and (max-width: 874px) and (min-width: 320px) {
   .completed {
     display: flex;
@@ -419,10 +418,10 @@ input::placeholder {
     justify-content: center;
     text-align: center;
   }
-  .container3 {
+  .container-completed {
     padding: 0;
   }
-  .container3 ul {
+  .container-completed ul {
     display: none;
   }
   .subcompleted {
@@ -443,7 +442,7 @@ input::placeholder {
     margin-top: 18px;
     margin-bottom: 22px;
   }
-  .hall {
+  .hall-completed {
     display: none;
   }
   .mobileimage {
@@ -471,37 +470,37 @@ input::placeholder {
     right: 0;
   }
 
-  .info {
+  .info-completed {
     text-align: left;
     width: 340px;
     margin: 0;
   }
-  .info h3 {
+  .info-completed h3 {
     font-size: 14px;
   }
-  .info span {
+  .info-completed span {
     font-size: 11px;
   }
-  .dots {
+  .dots-completed {
     display: none;
   }
 }
 @media only screen and (max-width: 1162px) {
-  .dots {
+  .dots-completed {
     position: static;
     padding-top: 50px;
   }
 }
-/******************responsive section 3********************/
+/******************responsive online control********************/
 @media only screen and (max-width: 859px) and (min-width: 320px) {
-  .sect3 {
+  .section-control {
     background-color: #131313;
   }
-  .video {
+  .video-control {
     width: 500px;
     height: 270px;
   }
-  .video img {
+  .video-control img {
     width: 37px;
     height: 37px;
   }
@@ -521,18 +520,18 @@ input::placeholder {
     width: 340px;
     height: 51px;
   }
-  .container4 p {
+  .container-control p {
     font-size: 11px;
     padding: 0 18px 60px 18px;
     line-height: 169.8%;
     color: #ffffff;
     max-width: 480px;
   }
-  .container4 p br {
+  .container-control p br {
     display: none;
   }
 
-  .video img:hover {
+  .video-control img:hover {
     transform: scale(1.1);
   }
 
@@ -569,7 +568,7 @@ input::placeholder {
 
 /*-----------широкий экран более 2100px-----------------*/
 @media only screen and (min-width: 2100px) {
-  .container2 {
+  .container-intro {
     padding-left: 27%;
   }
 }

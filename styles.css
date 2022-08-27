@@ -576,6 +576,6 @@ input::placeholder {
 /*-----------широкий экран более 2100px-----------------*/
 @media only screen and (min-width: 2100px) {
   .container-intro {
-    padding-left: 27%;
+    padding-left: 26.5%;
   }
 }

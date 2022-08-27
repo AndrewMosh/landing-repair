@@ -193,9 +193,12 @@ header {
   grid-template-columns: repeat(2, 1fr);
   gap: 27px;
 }
-.mobileimage {
+.mobileimage,
+.buttonprev,
+.buttonnext {
   display: none;
 }
+
 .dot {
   cursor: pointer;
   height: 9px;
@@ -434,6 +437,26 @@ input::placeholder {
     margin: 70px 0 37px 0;
     max-width: 100%;
   }
+  .slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+  }
+  .buttonprev,
+  .buttonnext {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    user-select: none;
+    display: block;
+  }
+  .buttonnext {
+    right: 0;
+  }
+
   .info {
     text-align: left;
     width: 340px;

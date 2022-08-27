@@ -209,9 +209,11 @@ header {
 .arrow1 {
   margin-right: 20px;
 }
+
 .arrow2 {
   margin-left: 10px;
 }
+
 .active,
 .dot:hover {
   background-color: #ffffff;
@@ -527,6 +529,7 @@ input::placeholder {
     width: 340px;
     background-color: #131313;
     border-color: #ffffff8b;
+    border-radius: none;
   }
   input::placeholder {
     color: #ffffff;

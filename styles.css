@@ -282,7 +282,6 @@ input:focus::placeholder {
 input:focus {
   outline: none;
   border: 3px solid #e3b873;
-  border-radius: 5px;
 }
 input::placeholder {
   color: #363636;
@@ -521,7 +520,6 @@ input::placeholder {
     width: 340px;
     background-color: #131313;
     border-color: #ffffff8b;
-    border-radius: none;
   }
   input::placeholder {
     color: #ffffff;

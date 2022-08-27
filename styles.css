@@ -524,6 +524,9 @@ input::placeholder {
   input::placeholder {
     color: #ffffff;
   }
+  input:focus {
+    color: #ffffff;
+  }
 }
 
 /*-----------широкий экран более 2100px-----------------*/

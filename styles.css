@@ -416,7 +416,6 @@ input::placeholder {
   .completed {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     justify-content: center;
     text-align: center;
   }

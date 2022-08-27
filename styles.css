@@ -436,6 +436,7 @@ input::placeholder {
   .subcompleted p {
     margin: 0;
     font-size: 11px;
+    max-width: 300px;
   }
   .subcompleted h2 {
     margin-top: 18px;
@@ -524,6 +525,7 @@ input::placeholder {
     padding: 0 18px 60px 18px;
     line-height: 169.8%;
     color: #ffffff;
+    max-width: 480px;
   }
   .container4 p br {
     display: none;

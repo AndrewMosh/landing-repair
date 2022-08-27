@@ -36,7 +36,7 @@ button:hover {
 h1,
 h2,
 h3,
-a:not(.container1 ul a, .project, .phone) {
+a:not(.header-container ul a, .project-logo, .phone) {
   font-family: "Yeseva One";
   text-transform: uppercase;
 }
@@ -47,8 +47,7 @@ footer {
   max-width: 2500px;
 }
 
-nav ul,
-ul {
+nav > ul {
   display: flex;
 }
 a {
@@ -58,10 +57,6 @@ a {
 }
 a:hover {
   color: #e3b873;
-}
-ul li {
-  list-style-type: none;
-  margin-right: 47px;
 }
 .textwhite {
   color: white;
@@ -88,6 +83,10 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+}
+nav ul li {
+  margin-right: 47px;
+  list-style-type: none;
 }
 .request-button {
   width: 161px;
@@ -334,16 +333,12 @@ input::placeholder {
 }
 
 /*------------------types of repair--------------------------*/
-
+.services {
+  background-image: url(images/rep\ bg.png);
+  background-repeat: no-repeat;
+}
 /*redecor*/
-.section-repair {
-}
-.redecor-repair ul {
-  display: block;
-}
-.redecor-repair ul li {
-  list-style-type: square;
-}
+
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
   .request-button {

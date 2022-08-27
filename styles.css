@@ -332,6 +332,18 @@ input::placeholder {
 .buttonmobile {
   display: none;
 }
+
+/*------------------types of repair--------------------------*/
+
+/*redecor*/
+.section-repair {
+}
+.redecor-repair ul {
+  display: block;
+}
+.redecor-repair ul li {
+  list-style-type: square;
+}
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {
   .request-button {

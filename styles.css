@@ -44,7 +44,6 @@ section,
 header,
 footer {
   margin: 0 auto;
-  max-width: 2500px;
 }
 
 nav > ul {

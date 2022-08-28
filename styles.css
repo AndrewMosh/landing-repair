@@ -23,10 +23,11 @@ button {
   border: none;
   color: white;
   text-transform: uppercase;
-  width: 200px;
+  width: 207px;
   height: 51px;
   border-radius: 2px;
   max-width: 100%;
+  font-size: 11px;
 }
 button:hover {
   background-color: rgb(236, 222, 212);
@@ -70,7 +71,7 @@ a:hover {
 /*----------------------header---------------------------*/
 header {
   background-color: #131313;
-  height: 84px;
+  height: 88px;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 400;
@@ -87,6 +88,7 @@ header {
 nav ul li {
   margin-right: 47px;
   list-style-type: none;
+  line-height: 15px;
 }
 .request-button {
   width: 161px;
@@ -95,11 +97,11 @@ nav ul li {
 }
 .phone {
   color: #e3b873;
-  margin: 0 30px 0 83px;
+  margin: 0 48px 0 70px;
   text-decoration: underline;
 }
 .project-logo {
-  margin-right: 108px;
+  margin-right: 140px;
   color: #e3b873;
 }
 /*-------------------intro----------------------*/
@@ -109,31 +111,31 @@ nav ul li {
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 711px;
+  height: 702px;
 }
 
 .container-intro {
-  padding: 180px 87px 199px 89px;
+  padding: 163px 87px 199px 134px;
 }
 .container-intro h1 {
   font-weight: 400;
   font-size: 40px;
   line-height: 53px;
-  margin-bottom: 40px;
+  margin-bottom: 19px;
 }
 .container-intro p {
   font-weight: 400px;
   font-size: 22px;
   font-style: normal;
   line-height: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .container-intro span {
   font-family: "Yeseva One";
   color: #e3b873;
 }
 .container-intro button {
-  margin-right: 20px;
+  margin-right: 17px;
 }
 .container-intro button:nth-of-type(2) {
   background-color: transparent;
@@ -151,7 +153,7 @@ nav ul li {
   height: 1074px;
 }
 .container-completed {
-  padding: 99px 0 50px 0;
+  padding: 95px 0 50px 0;
 }
 .container-completed a:not(.current) {
   color: #ffffff4d;
@@ -161,12 +163,17 @@ nav ul li {
 .underlined {
   text-decoration: underline;
   color: #e3b873;
-  text-underline-offset: 7px;
+  text-underline-offset: 9px;
+  font-size: 14px;
 }
 .container-completed ul {
   justify-content: flex-end;
-  margin: 0 10px 52.68px 0;
+  margin: 12px 10px 52.68px 0;
 }
+.container-completed ul li:nth-child(1) {
+  padding-right: 23px;
+}
+
 .completed {
   display: flex;
   gap: 50px;
@@ -188,9 +195,10 @@ nav ul li {
 .subcompleted {
   position: relative;
 }
-.subcompleted h2,
 .subcompleted p {
-  margin-bottom: 34px;
+  padding: 20px 0 50px 0;
+}
+.subcompleted h2 {
 }
 .subcompleted span {
   font-size: 13px;
@@ -203,7 +211,8 @@ nav ul li {
 .info-completed {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 27px;
+  line-height: 25px;
+  row-gap: 27px;
 }
 .mobileimage,
 .buttonprev,
@@ -248,7 +257,7 @@ nav ul li {
 }
 .container-control p {
   font-size: 18px;
-  padding-bottom: 93px;
+  padding-bottom: 82px;
   text-align: center;
   line-height: 36.83px;
   font-weight: 400;
@@ -274,12 +283,12 @@ hr {
   width: 55px;
   border-radius: 30px;
   border: 1px solid #e3b873;
-  margin-bottom: 34px;
+  margin-bottom: 32px;
 }
 form {
   display: flex;
   gap: 58px;
-  margin-bottom: 39px;
+  margin-bottom: 30px;
   width: 769px;
 }
 label {
@@ -313,7 +322,6 @@ input::placeholder {
   height: 18px;
   background: #e3b873;
   color: #fff;
-  -webkit-text-fill-color: white;
   justify-content: center;
 }
 .fake::before {

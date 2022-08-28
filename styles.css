@@ -50,6 +50,7 @@ footer {
 nav > ul {
   display: flex;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -333,9 +334,27 @@ input::placeholder {
 }
 
 /*------------------types of repair--------------------------*/
+.container-repair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-container {
+  display: flex;
+}
+.request-container {
+  display: flex;
+}
+.request-form {
+  display: flex;
+  flex-direction: column;
+}
 .services {
   background-image: url(images/rep\ bg.png);
   background-repeat: no-repeat;
+}
+.piggy {
+  display: flex;
 }
 /*redecor*/
 

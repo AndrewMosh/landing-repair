@@ -30,7 +30,7 @@ button {
   font-size: 11px;
 }
 button:hover {
-  background-color: rgb(236, 222, 212);
+  background-color: rgb(247, 242, 238);
   color: #e3b873;
 }
 
@@ -339,18 +339,67 @@ input::placeholder {
 .buttonmobile {
   display: none;
 }
+.first-checkbox {
+  padding-bottom: 74px;
+}
 
 /*------------------types of repair--------------------------*/
 .container-repair {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 74px;
+}
+.container-repair h3 {
+  margin-bottom: 14px;
+}
+.rep-logo {
+  margin-bottom: 31px;
 }
 .description-container {
   display: flex;
+  column-gap: 30px;
+}
+.rep-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .request-container {
   display: flex;
+}
+.redecor-repair {
+  width: 330px;
+  height: 286px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px 0px #00000008;
+  margin-top: -128px;
+  padding: 25px 0 0 37px;
+}
+.redecor-repair h4 {
+  font-family: "Yeseva One";
+  color: #363636;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.redecor-repair ul {
+  padding-left: 15px;
+}
+.redecor-repair li {
+  font-size: 13px;
+  line-height: 26.6px;
+  color: #959595;
+}
+.repair-button {
+  width: 228px;
+  height: 54px;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: "Yeseva One";
+  font-size: 18px;
+  line-height: 24.95px;
+  margin-top: 17px;
+  position: relative;
+  left: -36px;
 }
 .request-form {
   display: flex;

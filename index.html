@@ -155,7 +155,10 @@
             >Name:<br /><input id="name" type="text" placeholder="Your name:"
           /></label>
           <label for="phone"
-            >Phone:<br /><input id="phone" type="tel" placeholder="Your phone:"
+            >Phone:<br /><input
+              id="phone"
+              type="tel"
+              placeholder="Your phone number:"
           /></label>
           <button class="buttondesktop">Submit</button>
         </form>
@@ -175,10 +178,12 @@
     <section class="section-repair">
       <div class="container-repair">
         <h3>TYPES OF REPAIR</h3>
-        <div><img src="images/repair-logo.png" alt="logo" /></div>
+        <div class="rep-logo">
+          <img src="images/repair-logo.png" alt="logo" />
+        </div>
         <!--redecor-->
         <div class="description-container">
-          <div>
+          <div class="rep-card">
             <img src="images/redecor.jpg" alt="" />
             <div class="redecor-repair">
               <h4>Redecorating</h4>
@@ -191,13 +196,13 @@
                 <li>Replacing sockets and switches</li>
                 <li>Replacing doors</li>
               </ul>
-              <div><button>from 900 rub / m2</button></div>
+              <button class="repair-button">from 900 rub / m2</button>
             </div>
           </div>
           <!--overhaul-->
-          <div>
+          <div class="rep-card">
             <img src="images/overhaul.jpg" alt="" />
-            <div>
+            <div class="redecor-repair">
               <h4>Overhaul</h4>
               <ul>
                 <li>Dismantling of old coatings</li>
@@ -208,15 +213,17 @@
                 <li>Replacing sockets and switches</li>
                 <li>Replacing doors</li>
               </ul>
-              <div><button>from 1800 rub / m2</button></div>
+              <div>
+                <button class="repair-button">from 1800 rub / m2</button>
+              </div>
             </div>
           </div>
 
           <!--designer repair-->
 
-          <div>
+          <div class="rep-card">
             <img src="images/dis rep.jpg" alt="" />
-            <div>
+            <div class="redecor-repair">
               <h4>Designer Repair</h4>
               <ul>
                 <li>Dismantling of old coatings</li>
@@ -227,11 +234,13 @@
                 <li>Replacing sockets and switches</li>
                 <li>Replacing doors</li>
               </ul>
-              <div><button>from 4000 rub / m2</button></div>
+              <div>
+                <button class="repair-button">from 4000 rub / m2</button>
+              </div>
             </div>
           </div>
         </div>
-        <!--leave a request block-->
+        <!--leave a request block
         <div class="request-container">
           <div class="services">
             <div>
@@ -253,8 +262,8 @@
               <img src="images/4.svg" alt="" />
               <p>Get a cost estimate and the timing of your future repairs</p>
             </div>
-          </div>
-          <!--form-->
+          </div>-->
+          <!--form
           <form class="request-form" action="#" method="get">
             <p>Leave a request for free departure of the measurer</p>
             <label for=""
@@ -277,13 +286,13 @@
             </div>
             <button>Call the measurer</button>
           </form>
-        </div>
-        <!--piggybank-->
+        </div>-->
+        <!--piggybank
         <div class="piggy">
           <img src="images/piggy.png" alt="piggybank" />
           <p>Help save 10 - 20% of the cost of materials</p>
         </div>
       </div>
-    </section>
+    </section>-->
   </body>
 </html>

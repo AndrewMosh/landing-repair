@@ -377,6 +377,9 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+.rep-card img {
+  max-width: 100%;
+}
 .request-container {
   background-image: url(images/rep\ bg.png);
   background-repeat: no-repeat;
@@ -524,18 +527,18 @@ hr {
   }
   .phone {
     color: white;
-    margin: 0;
-    padding: 0 0 0 40px;
+    margin: 0 0 0 50px;
+    padding: 0;
   }
   .project-logo {
-    margin: 0;
-    padding: 0 40px 0 0;
+    margin: 0 10px 0 25px;
+    padding: 0;
   }
   header {
-    height: 56px;
+    height: 57px;
   }
   .header-container {
-    margin: 0 3px 0 3px;
+    align-items: center;
   }
 }
 /*--------------адаптивная intro-------------*/
@@ -544,7 +547,7 @@ hr {
     height: 500px;
   }
   .container-intro {
-    padding: 85px 0 0 0;
+    padding: 68px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -552,15 +555,15 @@ hr {
   .container-intro h1 {
     font-size: 23px;
     line-height: 132.83%;
-    margin-bottom: 16px;
-    padding-right: 40px;
+    padding-right: 43px;
   }
   .container-intro p {
     font-size: 14px;
     line-height: 135.84%;
-    margin-bottom: 50px;
-    padding-right: 15px;
+    padding-right: 19px;
+    padding-bottom: 42px;
   }
+
   .container-intro button {
     margin-right: 0;
     width: 339px;
@@ -615,17 +618,21 @@ hr {
     margin: 0;
     font-size: 11px;
     max-width: 300px;
+    line-height: 18.68px;
   }
   .subcompleted h2 {
-    margin-top: 18px;
-    margin-bottom: 22px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-size: 22px;
+    letter-spacing: -7%;
+    line-height: 30.49px;
   }
   .hall-completed {
     display: none;
   }
   .mobileimage {
     display: inline-block;
-    margin: 70px 0 37px 0;
+    margin: 18px 0 37px 0;
     max-width: 100%;
   }
   .slideshow-container {
@@ -639,7 +646,7 @@ hr {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
+    margin-top: -47px;
     padding: 16px;
     user-select: none;
     display: block;
@@ -651,7 +658,7 @@ hr {
   .info-completed {
     text-align: left;
     width: 340px;
-    margin: 0;
+    margin-top: -10px;
   }
   .info-completed h3 {
     font-size: 14px;
@@ -671,39 +678,33 @@ hr {
 }
 /******************responsive online control********************/
 @media only screen and (max-width: 859px) and (min-width: 320px) {
-  .section-control {
-    background-color: #131313;
+  .camera-control {
+    margin-bottom: 40px;
   }
   .video-control {
     width: 500px;
-    height: 270px;
+    height: 260px;
   }
   .video-control img {
     width: 37px;
     height: 37px;
   }
-  form {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .section-control hr {
+    margin-bottom: 12px;
   }
-  .buttondesktop {
-    display: none;
-  }
-  .buttonmobile {
-    display: block;
-    position: relative;
-    top: 24px;
-    margin-top: 30px;
-    width: 340px;
-    height: 51px;
+
+  .container-control {
+    margin-top: -371px;
+    background-color: #131313;
+    height: 823px;
   }
   .container-control p {
     font-size: 11px;
-    padding: 0 18px 60px 18px;
+    padding: 0 18px 83px 18px;
     line-height: 169.8%;
     color: #ffffff;
-    max-width: 480px;
+    max-width: 375px;
+    background-color: #131313;
   }
   .container-control p br {
     display: none;
@@ -712,35 +713,96 @@ hr {
   .video-control img:hover {
     transform: scale(1.1);
   }
-
-  form {
+  .form1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    gap: 60px;
     margin: 0;
     width: 300px;
+    background-color: #131313;
   }
-  label {
+
+  .form1 label {
     color: #ffffff80;
   }
   .first-checkbox {
-    margin-top: 62px;
     text-align: left;
     width: 340px;
+    margin-bottom: 12px;
   }
   .text {
     color: #ffffff;
     font-size: 14px;
+    padding-left: 5px;
   }
-  input {
+  .form1 input {
     width: 340px;
     background-color: #131313;
     border-color: #ffffff8b;
   }
-  input::placeholder {
+
+  .form1 input::placeholder {
     color: #ffffff;
   }
-  input:focus {
+  .form1 input:focus {
     color: #ffffff;
+  }
+  .buttondesktop {
+    display: none;
+  }
+  .buttonmobile {
+    display: block;
+    margin: -25.5px auto 0 auto;
+    width: 340px;
+    height: 51px;
+    font-size: 13px;
+  }
+  /*-------------types of repair responsive----------------*/
+  .container-repair {
+    margin: 58px 0 0 0;
+  }
+  .container-repair h3 {
+    font-size: 22px;
+  }
+  .rep-card {
+    align-items: flex-start;
+  }
+  .rep-card img {
+    width: 340px;
+    height: 365.15px;
+  }
+  .redecor-repair {
+    width: 270px;
+  }
+  .redecor-repair h4 {
+    font-size: 15px;
+    line-height: 20.79px;
+  }
+  .redecor-repair ul {
+    padding-left: 5px;
+  }
+  .redecor-repair ul li {
+    line-height: 22.07px;
+  }
+
+  .repair-button {
+    width: 190.43px;
+    height: 40px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-size: 15px;
+  }
+  .request-container {
+    display: none;
+  }
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: -13px;
+  }
+  .piggy {
+    display: none;
   }
 }
 

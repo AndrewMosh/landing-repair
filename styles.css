@@ -95,12 +95,11 @@ nav ul li {
   width: 161px;
   height: 37px;
   display: block;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .phone {
   color: #e3b873;
   text-decoration: underline;
-  width: 126px;
   margin-left: 50px;
 }
 .project-logo {
@@ -369,8 +368,11 @@ hr {
 }
 .description-container {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 30px;
   margin-bottom: 124px;
+  justify-content: center;
+  align-items: center;
 }
 .rep-card {
   display: flex;
@@ -385,10 +387,11 @@ hr {
   background-repeat: no-repeat;
   background-size: 49% 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   column-gap: 205px;
   padding-top: 117px;
-  width: 1440px;
-  height: 672px;
 }
 .redecor-repair {
   width: 330px;
@@ -426,7 +429,7 @@ hr {
 .services {
   font-size: 14px;
   color: #363636;
-  padding-left: 225px;
+  padding-left: 130px;
 }
 .service-flex {
   display: flex;
@@ -446,8 +449,8 @@ hr {
   width: 506px;
   height: 509px;
   padding: 0 49px 0 49px;
-  margin-top: 17px;
-  margin-left: 7px;
+  margin-left: 5px;
+  margin-bottom: 44px;
 }
 .request-form p {
   font-size: 18px;
@@ -455,7 +458,7 @@ hr {
   text-align: center;
   color: #ffffff;
   padding-top: 27px;
-  padding-bottom: 35px;
+  padding-bottom: 39px;
 }
 .request-form label {
   color: #ffffff80;
@@ -805,7 +808,11 @@ hr {
     display: none;
   }
 }
-
+@media only screen and (max-width: 1352px) and (min-width: 320px) {
+  .piggy {
+    display: none;
+  }
+}
 /*-----------широкий экран более 2100px-----------------*/
 @media only screen and (min-width: 2100px) {
   .container-intro {

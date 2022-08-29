@@ -84,9 +84,10 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+  width: 1263px;
 }
 nav ul li {
-  margin-right: 47px;
+  padding-right: 54px;
   list-style-type: none;
   line-height: 15px;
 }
@@ -94,15 +95,18 @@ nav ul li {
   width: 161px;
   height: 37px;
   display: block;
+  margin-left: 20px;
 }
 .phone {
   color: #e3b873;
-  margin: 0 48px 0 70px;
   text-decoration: underline;
+  width: 126px;
+  margin-left: 50px;
 }
 .project-logo {
-  margin-right: 140px;
+  margin-right: 98px;
   color: #e3b873;
+  width: 179.74px;
 }
 /*-------------------intro----------------------*/
 .section-intro {
@@ -285,29 +289,31 @@ hr {
   border: 1px solid #e3b873;
   margin-bottom: 32px;
 }
-form {
+.form1 {
   display: flex;
   gap: 58px;
-  margin-bottom: 30px;
-  width: 769px;
+  margin-bottom: 23px;
 }
-label {
+.form1 label {
   color: #36363680;
+  padding-bottom: 15px;
+  font-size: 13px;
 }
-input {
+.form1 input {
   border-style: none none solid none;
   border-color: #3636364d;
   width: 231px;
-  padding-bottom: 8px;
+  margin: 6px 0 0 0;
+  padding-bottom: 5px;
 }
-input:focus::placeholder {
+.form1 input:focus::placeholder {
   visibility: hidden;
 }
-input:focus {
+.form1 input:focus {
   outline: none;
   border: 3px solid #e3b873;
 }
-input::placeholder {
+.form1 input::placeholder {
   color: #363636;
 }
 .label {
@@ -339,6 +345,11 @@ input::placeholder {
 .buttonmobile {
   display: none;
 }
+.buttondesktop {
+  width: 200px;
+  height: 51px;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+}
 .first-checkbox {
   padding-bottom: 74px;
 }
@@ -348,7 +359,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 74px;
+  margin-top: 74px;
 }
 .container-repair h3 {
   margin-bottom: 14px;
@@ -359,6 +370,7 @@ input::placeholder {
 .description-container {
   display: flex;
   column-gap: 30px;
+  margin-bottom: 124px;
 }
 .rep-card {
   display: flex;
@@ -366,7 +378,14 @@ input::placeholder {
   align-items: center;
 }
 .request-container {
+  background-image: url(images/rep\ bg.png);
+  background-repeat: no-repeat;
+  background-size: 49% 100%;
   display: flex;
+  column-gap: 205px;
+  padding-top: 117px;
+  width: 1440px;
+  height: 672px;
 }
 .redecor-repair {
   width: 330px;
@@ -401,18 +420,95 @@ input::placeholder {
   position: relative;
   left: -36px;
 }
-.request-form {
-  display: flex;
-  flex-direction: column;
-}
 .services {
-  background-image: url(images/rep\ bg.png);
-  background-repeat: no-repeat;
+  font-size: 14px;
+  color: #363636;
+  padding-left: 225px;
 }
+.service-flex {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.service-flex p {
+  padding-bottom: 4px;
+}
+.service-flex img {
+  width: 81px;
+  height: 96px;
+}
+.request-form {
+  display: block;
+  background-color: #131313;
+  width: 506px;
+  height: 509px;
+  padding: 0 49px 0 49px;
+  margin-top: 17px;
+  margin-left: 7px;
+}
+.request-form p {
+  font-size: 18px;
+  line-height: 25.78px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 27px;
+  padding-bottom: 35px;
+}
+.request-form label {
+  color: #ffffff80;
+  font-size: 13px;
+  line-height: 21.28px;
+}
+.request-form label input {
+  margin-bottom: 46px;
+  border-style: none none solid none;
+}
+
+.request-form label input {
+  background-color: #131313;
+  padding: 5px 0 7px 0;
+  width: 408px;
+  border-color: #ffffff26;
+}
+.request-form label input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22.92px;
+}
+
+.request-form label input:focus::placeholder {
+  visibility: hidden;
+}
+.first-checkbox2 {
+  margin-top: -32px;
+  margin-bottom: 35px;
+}
+.text2 {
+  color: #ffffff;
+  font-style: 14px;
+  line-height: 22.92px;
+  padding-left: 6.5px;
+}
+.call-button {
+  margin-left: 195px;
+  width: 213px;
+  height: 51px;
+  font-size: 13px;
+}
+
 .piggy {
   display: flex;
+  align-items: center;
+  margin-left: 577px;
 }
-/*redecor*/
+.piggy p {
+  padding-bottom: 19px;
+  padding-left: 4px;
+  color: #e3b873;
+  font-size: 18px;
+  line-height: 25.78px;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
 
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1250px) and (min-width: 1083px) {

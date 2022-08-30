@@ -459,15 +459,54 @@ hr {
 .services {
   font-size: 14px;
   color: #363636;
-  margin-left: 130px;
+  margin-left: 119px;
 }
-.service-flex {
+.service-flex1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 57px;
+}
+.service-flex1 img {
+  padding-left: 3px;
+}
+.service-flex1 p {
+  line-height: 19.4px;
+  padding-top: 4px;
+}
+.service-flex2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 54px;
+}
+.service-flex2 p {
+  text-indent: -6px;
+}
+.service-flex2 img {
+  padding-left: 6px;
+  padding-top: 5px;
+}
+.service-flex3 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 55px;
+  text-indent: -10px;
+}
+.service-flex3 img {
+  padding-left: 8px;
+  padding-top: 5px;
+}
+.service-flex4 {
   display: flex;
   align-items: center;
   padding-bottom: 50px;
 }
-.service-flex p {
-  padding-bottom: 4px;
+.service-flex4 img {
+  padding-left: 6px;
+  margin-top: 4px;
+}
+.service-flex4 p {
+  padding-bottom: 12px;
+  margin-left: -8px;
 }
 .service-flex img {
   width: 81px;
@@ -480,7 +519,7 @@ hr {
   height: 509px;
   padding: 0 49px 0 49px;
   margin-left: 5px;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 .request-form p {
   font-size: 18px;
@@ -541,7 +580,6 @@ hr {
 }
 
 .piggy p {
-  padding-bottom: 19px;
   padding-left: 4px;
   color: #e3b873;
   font-size: 18px;

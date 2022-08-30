@@ -509,7 +509,10 @@ hr {
   display: flex;
   align-items: center;
   margin-left: 577px;
+  position: relative;
+  top: -30px;
 }
+
 .piggy p {
   padding-bottom: 19px;
   padding-left: 4px;
@@ -521,6 +524,41 @@ hr {
 /*-------------------wildelst fantasises-------------------------*/
 .section-fantas {
   background-image: url(images/bg-pic-fant.jpg);
+  background-repeat: no-repeat;
+  color: red;
+  margin-top: 181px;
+  height: 864px;
+}
+.container-fantas {
+  display: flex;
+}
+.list-fantas {
+  padding: 138px 210px 0 100px;
+}
+.list-fantas h2 {
+  font-size: 27px;
+  line-height: 37.42px;
+  padding-bottom: 30px;
+}
+.list-fantas li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 49px;
+}
+.photos-fantas {
+  display: flex;
+  gap: 43px;
+}
+.photos-fantas div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.photos-fantas div:nth-child(1) {
+  margin-top: -40px;
+}
+.photos-fantas div:nth-child(2) {
+  margin-top: -113px;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1278px) and (min-width: 1083px) {

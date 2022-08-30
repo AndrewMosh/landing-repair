@@ -38,7 +38,7 @@ button:hover {
 h1,
 h2,
 h3,
-a:not(.header-container ul a, .project-logo, .phone) {
+a:not(.header-container ul a, .project-logo, .phone, .list-fantas li a) {
   font-family: "Yeseva One";
   text-transform: uppercase;
 }
@@ -52,7 +52,7 @@ nav > ul {
   display: flex;
 }
 
-a {
+a:not(.list-fantas li a) {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -572,14 +572,22 @@ hr {
 }
 .list-fantas li {
   list-style-type: none;
+}
+.list-fantas li a {
   font-size: 20px;
   line-height: 49px;
   color: #ffffff;
+  text-decoration: none;
 }
 .list-fantas ul li:first-child {
   text-decoration: underline;
   color: #e3b873;
   text-underline-offset: 6px;
+  font-size: 20px;
+  line-height: 49px;
+}
+.list-fantas li a:hover {
+  color: #e3b873;
 }
 .photos-fantas {
   display: flex;

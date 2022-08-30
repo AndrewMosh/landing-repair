@@ -53,8 +53,6 @@ nav > ul {
 }
 
 a:not(.list-fantas li a) {
-  text-decoration: none;
-  color: white;
   text-transform: uppercase;
 }
 a:hover {
@@ -93,6 +91,10 @@ nav ul li {
   list-style-type: none;
   line-height: 15px;
 }
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
 .request-button {
   width: 161px;
   height: 37px;
@@ -108,6 +110,7 @@ nav ul li {
   margin-right: 98px;
   color: #e3b873;
   width: 179.74px;
+  text-decoration: none;
 }
 /*-------------------intro----------------------*/
 .section-intro {
@@ -551,7 +554,6 @@ hr {
 }
 .section-fantas {
   margin-top: 180px;
-  height: 864px;
 }
 .container-fantas {
   display: flex;
@@ -560,15 +562,19 @@ hr {
   background-image: url(images/bg-pic-fant.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 864px;
 }
 .list-fantas {
-  padding: 9px 210px 0 0;
+  padding: 30px 210px 0 0;
 }
 .list-fantas h2 {
   font-size: 27px;
   line-height: 37.42px;
-  padding-bottom: 30px;
+  padding-top: 21px;
   color: #e3b873;
+}
+.list-fantas ul {
+  padding-top: 35px;
 }
 .list-fantas li {
   list-style-type: none;
@@ -598,11 +604,9 @@ hr {
   flex-direction: column;
   gap: 40px;
 }
-.photos-fantas div:nth-child(1) {
-  margin-top: -40px;
-}
+
 .photos-fantas div:nth-child(2) {
-  margin-top: -113px;
+  margin-top: -73px;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1278px) and (min-width: 1083px) {

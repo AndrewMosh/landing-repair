@@ -753,7 +753,6 @@ hr {
 
   .info-completed {
     text-align: left;
-    width: 340px;
     margin-top: -10px;
   }
   .info-completed h3 {
@@ -908,12 +907,15 @@ hr {
 }
 /*--------------------responsive wildest fantasies-------------*/
 @media only screen and (max-width: 1300px) and (min-width: 320px) {
-  .container-fantas {
+  .container-fantas:not(.list-fantas h2) {
     display: none;
   }
   .mobile-hidden {
     display: flex;
     flex-direction: column;
+  }
+  .mobile-hidden h2 {
+    display: flex;
   }
 }
 /*-----------широкий экран более 2100px-----------------*/

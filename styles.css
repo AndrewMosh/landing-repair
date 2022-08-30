@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
 }
+
 button {
   background-color: #e3b873;
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
@@ -523,16 +524,19 @@ hr {
 }
 /*-------------------wildelst fantasises-------------------------*/
 .section-fantas {
-  background-image: url(images/bg-pic-fant.jpg);
-  background-repeat: no-repeat;
   margin-top: 181px;
   height: 864px;
 }
 .container-fantas {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bg-pic-fant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .list-fantas {
-  padding: 138px 210px 0 100px;
+  padding: 9px 210px 0 0;
 }
 .list-fantas h2 {
   font-size: 27px;

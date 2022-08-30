@@ -202,6 +202,9 @@ nav ul li {
   padding: 20px 0 50px 0;
 }
 .subcompleted h2 {
+  font-size: 27px;
+  line-height: 37.42px;
+  letter-spacing: -7%;
 }
 .subcompleted span {
   font-size: 13px;
@@ -515,7 +518,10 @@ hr {
   line-height: 25.78px;
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
-
+/*-------------------wildelst fantasises-------------------------*/
+.section-fantas {
+  background-image: url(images/bg-pic-fant.jpg);
+}
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1278px) and (min-width: 1083px) {
   .request-button {

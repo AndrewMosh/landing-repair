@@ -72,7 +72,7 @@ a:hover {
 /*----------------------header---------------------------*/
 header {
   background-color: #131313;
-  height: 88px;
+  height: 83px;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 400;
@@ -86,6 +86,7 @@ header {
   display: flex;
   align-items: center;
   width: 1263px;
+  padding-top: 5px;
 }
 nav ul li {
   padding-right: 54px;
@@ -125,14 +126,14 @@ nav ul li {
   font-weight: 400;
   font-size: 40px;
   line-height: 53px;
-  margin-bottom: 19px;
+  margin-bottom: 18px;
 }
 .container-intro p {
   font-weight: 400px;
   font-size: 22px;
   font-style: normal;
   line-height: 36px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .container-intro span {
   font-family: "Yeseva One";
@@ -140,6 +141,8 @@ nav ul li {
 }
 .container-intro button {
   margin-right: 17px;
+  padding-top: 4px;
+  padding-right: 2px;
 }
 .container-intro button:nth-of-type(2) {
   background-color: transparent;
@@ -167,15 +170,17 @@ nav ul li {
 .underlined {
   text-decoration: underline;
   color: #e3b873;
-  text-underline-offset: 9px;
+  text-underline-offset: 10px;
   font-size: 14px;
 }
 .container-completed ul {
-  justify-content: flex-end;
-  margin: 12px 10px 52.68px 0;
+  margin: 17px 0 52.68px 493px;
 }
 .container-completed ul li:nth-child(1) {
-  padding-right: 23px;
+  padding-right: 60px;
+}
+.container-completed ul li:nth-child(2) {
+  padding-right: 62px;
 }
 
 .completed {
@@ -191,54 +196,59 @@ nav ul li {
 .completed h3 {
   color: #e3b873;
 }
-.completed h2 {
-  font-size: 27px;
-  line-height: 37.42px;
-  letter-spacing: -7%;
+.completed h3 {
+  line-height: 24.95px;
+  letter-spacing: -0.02em;
+  padding-bottom: 5px;
 }
 .subcompleted {
   position: relative;
+  top: -8px;
 }
 .subcompleted p {
-  padding: 20px 0 50px 0;
+  padding: 28px 0 50px 0;
 }
 .subcompleted h2 {
   font-size: 27px;
   line-height: 37.42px;
-  letter-spacing: -7%;
+  letter-spacing: -0.07em;
 }
 .subcompleted span {
   font-size: 13px;
-  line-height: 21px;
+  line-height: 21.28px;
 }
 .hall-completed {
   max-width: 100%;
   max-height: 100%;
+  padding-left: 10px;
 }
 .info-completed {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  line-height: 25px;
-  row-gap: 27px;
+  grid-template-columns: repeat(2, 187px);
+  row-gap: 35px;
+  column-gap: 4px;
 }
 .mobileimage,
 .buttonprev,
 .buttonnext {
   display: none;
 }
-
+.dots-completed {
+  position: absolute;
+  bottom: -11px;
+}
 .dot-completed {
   cursor: pointer;
   height: 9px;
   width: 9px;
-  margin: 0 10px 1.5px 0;
+  margin: 0 15px 1.5px 0;
   background-color: #ffffff4d;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 .arrow1-completed {
-  margin-right: 20px;
+  margin-right: 26px;
 }
 
 .arrow2-completed {
@@ -249,10 +259,7 @@ nav ul li {
 .dot-completed:hover {
   background-color: #ffffff;
 }
-.dots-completed {
-  position: absolute;
-  bottom: 0;
-}
+
 /*-------------------online control-----------------------------------*/
 
 .container-control {
@@ -260,7 +267,14 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -318px;
+  margin-top: -321.5px;
+}
+.container-control h3 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27.72px;
+  text-align: center;
+  padding-bottom: 12px;
 }
 .container-control p {
   font-size: 18px;
@@ -272,42 +286,41 @@ nav ul li {
 
 .video-control {
   max-width: 100%;
-  width: 900px;
-  height: 520px;
+  width: 919px;
+  height: 538px;
   background-image: url(images/video.png);
   background-position: center;
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 .video-control img:hover {
   transform: scale(1.1);
 }
 hr {
-  width: 55px;
+  width: 53px;
   border-radius: 30px;
   border: 1px solid #e3b873;
-  margin-bottom: 32px;
+  margin-top: -10px;
+  margin-bottom: 29px;
 }
 .form1 {
   display: flex;
-  gap: 58px;
-  margin-bottom: 23px;
+  gap: 52.5px;
+  margin-bottom: 0;
+  margin-top: 4px;
 }
 .form1 label {
   color: #36363680;
-  padding-bottom: 15px;
   font-size: 13px;
 }
 .form1 input {
   border-style: none none solid none;
   border-color: #3636364d;
   width: 231px;
-  margin: 6px 0 0 0;
-  padding-bottom: 5px;
+  margin: 4px 0 0 0;
+  padding-bottom: 6px;
 }
 .form1 input:focus::placeholder {
   visibility: hidden;
@@ -342,6 +355,7 @@ hr {
   opacity: 1;
 }
 .text {
+  padding-left: 6px;
   color: #181818;
   font-size: 14px;
 }
@@ -352,9 +366,14 @@ hr {
   width: 200px;
   height: 51px;
   box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  margin-top: -6px;
+  font-size: 13px;
+  line-height: 26.6px;
+  padding-top: 6px;
 }
 .first-checkbox {
-  padding-bottom: 74px;
+  margin-top: 33px;
+  margin-right: 4px;
 }
 
 /*------------------types of repair--------------------------*/
@@ -362,19 +381,20 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 74px;
+  margin-top: 148px;
 }
 .container-repair h3 {
-  margin-bottom: 14px;
+  margin-bottom: 17px;
+  font-size: 20px;
 }
 .rep-logo {
-  margin-bottom: 31px;
+  margin-bottom: 26px;
 }
 .description-container {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
-  margin-bottom: 124px;
+  margin-bottom: 127px;
   justify-content: center;
   align-items: center;
 }
@@ -386,38 +406,30 @@ hr {
 .rep-card img {
   max-width: 100%;
 }
-.request-container {
-  background-image: url(images/rep\ bg.png);
-  background-repeat: no-repeat;
-  background-size: 49% 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  column-gap: 205px;
-  padding-top: 117px;
-}
+
 .redecor-repair {
   width: 330px;
   height: 286px;
   background-color: #ffffff;
   box-shadow: 10px 10px 20px 0px #00000008;
   margin-top: -128px;
-  padding: 25px 0 0 37px;
+  padding: 26px 0 0 37px;
 }
 .redecor-repair h4 {
   font-family: "Yeseva One";
   color: #363636;
   font-size: 18px;
   padding-bottom: 10px;
+  margin-left: -3.5px;
 }
 .redecor-repair ul {
-  padding-left: 15px;
+  padding-left: 11.6px;
 }
 .redecor-repair li {
   font-size: 13px;
   line-height: 26.6px;
   color: #959595;
+  text-indent: -5px;
 }
 .repair-button {
   width: 228px;
@@ -430,10 +442,21 @@ hr {
   position: relative;
   left: -36px;
 }
+.request-container {
+  background-image: url(images/rep\ bg.png);
+  background-repeat: no-repeat;
+  background-size: 49% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 205px;
+  padding-top: 115px;
+}
 .services {
   font-size: 14px;
   color: #363636;
-  padding-left: 130px;
+  margin-left: 130px;
 }
 .service-flex {
   display: flex;
@@ -490,7 +513,7 @@ hr {
   visibility: hidden;
 }
 .first-checkbox2 {
-  margin-top: -32px;
+  margin-top: -35px;
   margin-bottom: 35px;
 }
 .text2 {
@@ -511,7 +534,7 @@ hr {
   align-items: center;
   margin-left: 577px;
   position: relative;
-  top: -30px;
+  top: -34px;
 }
 
 .piggy p {
@@ -523,8 +546,11 @@ hr {
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 /*-------------------wildelst fantasises-------------------------*/
+.mobile-hidden {
+  display: none;
+}
 .section-fantas {
-  margin-top: 181px;
+  margin-top: 180px;
   height: 864px;
 }
 .container-fantas {
@@ -587,11 +613,11 @@ hr {
   }
   .phone {
     color: white;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 23px;
     padding: 0;
   }
   .project-logo {
-    margin: 0 10px 0 25px;
+    margin: 0 34px 0 0;
     padding: 0;
   }
   header {
@@ -620,13 +646,14 @@ hr {
   }
   .container-intro p {
     font-size: 14px;
-    line-height: 135.84%;
+    line-height: 18px;
     padding-right: 19px;
-    padding-bottom: 42px;
+    padding-bottom: 45px;
   }
 
   .container-intro button {
     margin-right: 0;
+
     width: 339px;
     height: 51px;
     max-width: 100%;
@@ -636,7 +663,7 @@ hr {
     background-color: transparent;
     border: 1px solid white;
     font-style: italic;
-    margin-top: 26px;
+    margin-top: 28px;
   }
   .container-intro button:nth-of-type(2) {
     display: none;
@@ -790,7 +817,7 @@ hr {
   .first-checkbox {
     text-align: left;
     width: 340px;
-    margin-bottom: 12px;
+    margin-bottom: 0;
   }
   .text {
     color: #ffffff;
@@ -869,6 +896,16 @@ hr {
 @media only screen and (max-width: 1352px) and (min-width: 320px) {
   .piggy {
     display: none;
+  }
+}
+/*--------------------responsive wildest fantasies-------------*/
+@media only screen and (max-width: 1300px) and (min-width: 320px) {
+  .container-fantas {
+    display: none;
+  }
+  .mobile-hidden {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*-----------широкий экран более 2100px-----------------*/

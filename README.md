@@ -8,7 +8,7 @@
 
 ## Основные инструменты разработчика
 
-**HTML, CSS, GIT, GIThub, Figma, Google Chrome devtool**
+**HTML, CSS, GIT, GIThub, autoprefixer, Figma, Google Chrome devtool**
 
 ## Вспомогательные средства разработчика
 

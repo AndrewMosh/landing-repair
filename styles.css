@@ -657,6 +657,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 .header-clients h3 {
   font-size: 20px;
@@ -675,42 +676,46 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
 }
 .feedback {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 324px;
+  width: 370px;
+  height: 428px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
-  margin-right: 40px;
-  padding: 50px 20px 0 20px;
+  padding: 150px 32px 63px 18px;
+}
+.feedback:nth-child(2) {
+  margin: 0 60px 0 60px;
 }
 .feedback p {
   font-size: 13px;
   line-height: 23.4px;
   color: #959595;
+  height: 216px;
 }
 .feed-name {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-right: 40px;
-  padding-bottom: 30px;
+  justify-content: start;
+  padding-bottom: 20px;
 }
+
 .feed-name span {
   line-height: 22.87px;
   font-size: 18px;
   font-family: "Yeseva One";
-  padding-left: 20px;
+  margin-left: 23px;
 }
+
 .button-like {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
   position: relative;
-  left: -20px;
+  left: -30px;
+  margin-top: 70px;
 }
 .button-like div {
   background-color: #e3b873;

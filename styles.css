@@ -592,6 +592,7 @@ hr {
 }
 .section-fantas {
   margin-top: 180px;
+  margin-bottom: 100px;
 }
 .container-fantas {
   display: flex;
@@ -645,6 +646,92 @@ hr {
 
 .photos-fantas div:nth-child(2) {
   margin-top: -73px;
+}
+/*-----------------Our clients-----------------------------------*/
+
+.container-clients {
+  padding-top: 13px;
+}
+.header-clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-clients h3 {
+  font-size: 20px;
+  line-height: 27.72px;
+  padding-bottom: 11px;
+}
+.header-clients img {
+  padding-bottom: 22px;
+}
+.header-clients p {
+  font-size: 18px;
+  line-height: 29.46px;
+  text-align: center;
+}
+.container-feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 324px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  margin-right: 40px;
+  padding: 50px 20px 0 20px;
+}
+.feedback p {
+  font-size: 13px;
+  line-height: 23.4px;
+  color: #959595;
+}
+.feed-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+.feed-name span {
+  line-height: 22.87px;
+  font-size: 18px;
+  font-family: "Yeseva One";
+  padding-left: 20px;
+}
+.button-like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+  left: -20px;
+}
+.button-like div {
+  background-color: #e3b873;
+  margin-right: 3px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-like div:nth-child(1) {
+  width: 135px;
+}
+.button-like div:nth-child(2) {
+  width: 159px;
+}
+.button-like span {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Yeseva One";
+  line-height: 23.56px;
+  padding-left: 20px;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1278px) and (min-width: 1083px) {

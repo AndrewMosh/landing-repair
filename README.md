@@ -18,6 +18,8 @@ _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материа�
 
 ## Home версия для экранов 1440px - 1100px
 
+![image](https://github.com/AndrewMosh/lnd/blob/main/images/home.gif)
+
 ## Responsive версия 1099px - 860px
 
 ## Мобильная версия 859px - 375px

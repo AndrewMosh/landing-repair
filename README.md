@@ -14,15 +14,15 @@
 
 _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материалы SF_
 
-## Large версия для экранов больше 1440px
-
 ## Home версия для экранов 1440px - 1100px
 
 ![image](https://github.com/AndrewMosh/lnd/blob/main/images/home.gif)
 
-## Responsive версия 1099px - 860px
-
 ## Мобильная версия 859px - 375px
+
+## Large версия для экранов больше 1440px
+
+![image](https://github.com/AndrewMosh/lnd/blob/main/images/large.gif)
 
 ## Ссылка на лэндинг
 

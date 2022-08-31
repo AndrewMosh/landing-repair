@@ -729,6 +729,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
 .button-like div:nth-child(1) {
   width: 135px;

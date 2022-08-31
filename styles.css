@@ -652,7 +652,7 @@ hr {
   height: 1107px;
   background-image: url(images/skyscrapers.svg);
   background-repeat: no-repeat;
-  background-size: 135% 112%;
+  background-size: 100% 112%;
 }
 .container-clients {
   padding-top: 13px;
@@ -752,6 +752,7 @@ hr {
   justify-content: center;
   height: 954px;
   background-image: url(images/bg-building.svg);
+  margin-top: -99px;
 }
 
 .request-form2 {
@@ -762,7 +763,7 @@ hr {
   width: 883px;
   height: 445.32px;
   margin-left: 18px;
-  margin-top: -480px;
+  margin-top: -285px;
   margin-bottom: 50px;
 }
 .request-form2 div {

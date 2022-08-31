@@ -648,7 +648,12 @@ hr {
   margin-top: -73px;
 }
 /*-----------------Our clients-----------------------------------*/
-
+.section-clients {
+  height: 1107px;
+  background-image: url(images/skyscrapers.svg);
+  background-repeat: no-repeat;
+  background-size: 135% 112%;
+}
 .container-clients {
   padding-top: 13px;
 }
@@ -657,7 +662,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
 }
 .header-clients h3 {
   font-size: 20px;
@@ -737,6 +742,114 @@ hr {
   font-family: "Yeseva One";
   line-height: 23.56px;
   padding-left: 20px;
+}
+/*------------------------address and question section------------*/
+
+.section-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 954px;
+  background-image: url(images/bg-building.svg);
+}
+
+.request-form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+  width: 883px;
+  height: 445.32px;
+  margin-left: 18px;
+  margin-top: -480px;
+  margin-bottom: 50px;
+}
+.request-form2 div {
+  display: flex;
+  align-items: center;
+  width: 516.82px;
+  gap: 58px;
+}
+.request-form2 div input {
+  width: 231px;
+}
+.request-form2 h3 {
+  font-size: 20px;
+  line-height: 27.72px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 45px;
+}
+.request-form2 label {
+  color: #ffffff80;
+  font-size: 13px;
+  line-height: 21.28px;
+}
+.request-form2 label input {
+  margin-bottom: 40px;
+  border-style: none none solid none;
+}
+.input-question {
+  width: 516.82px;
+}
+.input-question input {
+  width: 516.82px;
+}
+.request-form2 label input {
+  background-color: #131313;
+  padding: 5px 0 7px 0;
+  border-color: #ffffff26;
+}
+.request-form2 label input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22.92px;
+}
+
+.request-form2 label input:focus::placeholder {
+  visibility: hidden;
+}
+.submit-button {
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+  width: 200px;
+  height: 51px;
+  font-size: 13px;
+}
+.first-checkbox3 {
+  margin-top: 5px;
+  margin-bottom: 45px;
+  align-self: flex-end;
+  margin-right: 66px;
+}
+.section-address p {
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 27.72px;
+  text-align: center;
+  color: #e3b873;
+  text-transform: uppercase;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+.contact-icons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 47px;
+}
+/*---------------------footer---------------------------------*/
+footer {
+  background-color: #131313;
+  height: 133px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 /*-----------------мобильная версия с 320px по 1250px-------------*/
 @media only screen and (max-width: 1278px) and (min-width: 1083px) {

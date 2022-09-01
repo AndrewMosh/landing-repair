@@ -138,7 +138,6 @@ nav ul li a {
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 702px;
 }
 
 .container-intro {
@@ -183,10 +182,9 @@ nav ul li a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 1074px;
 }
 .container-completed {
-  padding: 95px 0 50px 0;
+  padding: 100px 0 410px 0;
 }
 .container-completed a:not(.current) {
   color: #ffffff4d;
@@ -479,7 +477,7 @@ hr {
   font-size: 20px;
 }
 .rep-logo {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 .description-container {
   display: -webkit-box;
@@ -516,7 +514,6 @@ hr {
 
 .redecor-repair {
   width: 330px;
-  height: 286px;
   background-color: #ffffff;
   -webkit-box-shadow: 10px 10px 20px 0px #00000008;
   box-shadow: 10px 10px 20px 0px #00000008;
@@ -562,19 +559,20 @@ hr {
   flex-wrap: wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+
   -webkit-column-gap: 205px;
   -moz-column-gap: 205px;
   column-gap: 205px;
-  padding-top: 115px;
+  margin-top: 80px;
 }
 .services {
   font-size: 14px;
   color: #363636;
   margin-left: 119px;
+  margin-top: 10px;
 }
 .service-flex1 {
   display: -webkit-box;
@@ -583,7 +581,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 57px;
+  padding-bottom: 90px;
 }
 .service-flex1 img {
   padding-left: 3px;
@@ -599,7 +597,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 54px;
+  margin-top: -30px;
 }
 .service-flex2 p {
   text-indent: -6px;
@@ -615,7 +613,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 55px;
+  padding-top: 50px;
   text-indent: -10px;
 }
 .service-flex3 img {
@@ -629,7 +627,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding-top: 51px;
 }
 .service-flex4 img {
   padding-left: 6px;
@@ -639,18 +637,15 @@ hr {
   padding-bottom: 12px;
   margin-left: -8px;
 }
-.service-flex img {
-  width: 81px;
-  height: 96px;
-}
+
 .request-form {
   display: block;
   background-color: #131313;
   width: 506px;
-  height: 509px;
-  padding: 0 49px 0 49px;
+  padding: 0 49px 10px 49px;
   margin-left: 5px;
   margin-bottom: 40px;
+  margin-top: 22px;
 }
 .request-form p {
   font-size: 18px;
@@ -660,70 +655,70 @@ hr {
   padding-top: 27px;
   padding-bottom: 39px;
 }
-.request-form label {
+.request-form label:not(.text2) {
   color: #ffffff80;
   font-size: 13px;
   line-height: 21.28px;
+  margin-bottom: 5px;
 }
-.request-form label input {
-  margin-bottom: 46px;
+.request-form input {
+  margin-bottom: 55px;
   border-style: none none solid none;
 }
 
-.request-form label input {
+.request-form input {
   background-color: #131313;
-  padding: 5px 0 7px 0;
   width: 408px;
   border-color: #ffffff26;
 }
-.request-form label input::-webkit-input-placeholder {
+.request-form input::-webkit-input-placeholder {
   color: #ffffff;
   font-size: 14px;
   line-height: 22.92px;
 }
-.request-form label input::-moz-placeholder {
+.request-form input::-moz-placeholder {
   color: #ffffff;
   font-size: 14px;
   line-height: 22.92px;
 }
-.request-form label input:-ms-input-placeholder {
+.request-form input:-ms-input-placeholder {
   color: #ffffff;
   font-size: 14px;
   line-height: 22.92px;
 }
-.request-form label input::-ms-input-placeholder {
+.request-form input::-ms-input-placeholder {
   color: #ffffff;
   font-size: 14px;
   line-height: 22.92px;
 }
-.request-form label input::placeholder {
+.request-form input::placeholder {
   color: #ffffff;
   font-size: 14px;
   line-height: 22.92px;
 }
 
-.request-form label input:focus::-webkit-input-placeholder {
+.request-form input:focus::-webkit-input-placeholder {
   visibility: hidden;
 }
 
-.request-form label input:focus::-moz-placeholder {
+.request-form input:focus::-moz-placeholder {
   visibility: hidden;
 }
 
-.request-form label input:focus:-ms-input-placeholder {
+.request-form input:focus:-ms-input-placeholder {
   visibility: hidden;
 }
 
-.request-form label input:focus::-ms-input-placeholder {
+.request-form input:focus::-ms-input-placeholder {
   visibility: hidden;
 }
 
-.request-form label input:focus::placeholder {
+.request-form input:focus::placeholder {
   visibility: hidden;
 }
 .first-checkbox2 {
   margin-top: -35px;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 .text2 {
   color: #ffffff;
@@ -736,6 +731,7 @@ hr {
   width: 213px;
   height: 51px;
   font-size: 13px;
+  margin-bottom: 16px;
 }
 
 .piggy {
@@ -747,11 +743,13 @@ hr {
   align-items: center;
   margin-left: 577px;
   position: relative;
-  top: -34px;
+  top: -10px;
+  margin-bottom: 20px;
 }
 
 .piggy p {
   padding-left: 4px;
+  padding-bottom: 20px;
   color: #e3b873;
   font-size: 18px;
   line-height: 25.78px;
@@ -839,7 +837,7 @@ hr {
   background-size: 100% 112%;
 }
 .container-clients {
-  padding-top: 13px;
+  padding-top: 5px;
 }
 .header-clients {
   display: -webkit-box;
@@ -1004,7 +1002,6 @@ hr {
   align-items: center;
   background-color: #131313;
   width: 883px;
-  height: 445.32px;
   margin-left: 18px;
   margin-top: -285px;
   margin-bottom: 50px;
@@ -1101,6 +1098,7 @@ hr {
   width: 200px;
   height: 51px;
   font-size: 13px;
+  margin-bottom: 32px;
 }
 .first-checkbox3 {
   margin-top: 5px;
@@ -1256,8 +1254,12 @@ footer {
     justify-content: center;
     text-align: center;
   }
-  .container-completed {
+  .section-completed {
     padding: 0;
+    height: 980px;
+  }
+  .container-completed {
+    padding-top: 18px;
   }
   .container-completed ul {
     display: none;
@@ -1287,8 +1289,6 @@ footer {
     line-height: 18.68px;
   }
   .subcompleted h2 {
-    margin-top: 10px;
-    margin-bottom: 6px;
     font-size: 22px;
     letter-spacing: -7%;
     line-height: 30.49px;
@@ -1298,7 +1298,7 @@ footer {
   }
   .mobileimage {
     display: inline-block;
-    margin: 18px 0 37px 0;
+    margin: 12px 0 37px 0;
     max-width: 100%;
   }
   .slideshow-container {
@@ -1326,13 +1326,17 @@ footer {
 
   .info-completed {
     text-align: left;
-    margin-top: -10px;
+    margin-top: -4px;
+    margin-right: 20px;
+    grid-template-columns: repeat(2, 155px);
+    row-gap: 27px;
   }
   .info-completed h3 {
     font-size: 14px;
   }
   .info-completed span {
     font-size: 11px;
+    line-height: 0;
   }
   .dots-completed {
     display: none;
@@ -1347,24 +1351,27 @@ footer {
 /******************responsive online control********************/
 @media only screen and (max-width: 859px) and (min-width: 320px) {
   .camera-control {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .video-control {
-    width: 500px;
     height: 260px;
   }
   .video-control img {
-    width: 37px;
-    height: 37px;
+    width: 60px;
+    height: 60px;
   }
   .section-control hr {
-    margin-bottom: 12px;
+    margin-bottom: 25px;
   }
 
   .container-control {
-    margin-top: -371px;
     background-color: #131313;
-    height: 823px;
+    height: 868px;
+  }
+  .container-control h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-top: -47px;
   }
   .container-control p {
     font-size: 11px;
@@ -1418,6 +1425,7 @@ footer {
   .form1 input {
     width: 340px;
     background-color: #131313;
+
     border-color: #ffffff8b;
   }
 
@@ -1448,17 +1456,21 @@ footer {
   }
   .buttonmobile {
     display: block;
-    margin: -25.5px auto 0 auto;
+    margin: -24px auto 0 auto;
     width: 340px;
     height: 51px;
     font-size: 13px;
   }
   /*-------------types of repair responsive----------------*/
   .container-repair {
-    margin: 58px 0 0 0;
+    margin: 55px 0 62px 0;
+    height: 1670px;
   }
   .container-repair h3 {
     font-size: 22px;
+  }
+  .rep-logo {
+    margin-bottom: 49px;
   }
   .rep-card {
     -webkit-box-align: start;
@@ -1471,6 +1483,8 @@ footer {
   }
   .redecor-repair {
     width: 270px;
+    position: relative;
+    top: -20px;
   }
   .redecor-repair h4 {
     font-size: 15px;
@@ -1518,6 +1532,9 @@ footer {
   .container-fantas:not(.list-fantas h2) {
     display: none;
   }
+  .section-fantas {
+    margin: 0;
+  }
   .mobile-hidden {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1526,11 +1543,141 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-bottom: 350px;
   }
   .mobile-hidden h2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    text-align: center;
+    color: #e3b873;
+    font-size: 22px;
+    line-height: 30.49px;
+    margin-bottom: 20px;
+  }
+
+  .slideshow-container2 {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2px;
+  }
+  .buttonprev,
+  .buttonnext {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -47px;
+    padding: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: block;
+  }
+  .buttonnext {
+    right: 0;
+  }
+}
+/*--------------------responsive address and footer-------------*/
+@media only screen and (max-width: 1300px) and (min-width: 320px) {
+  .section-address {
+    background-image: none;
+    background-color: #131313;
+  }
+  .section-clients {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .request-form2 {
+    width: 375px;
+    display: block;
+    background-color: #131313;
+    order: -1;
+    margin-left: 0;
+    margin-top: -860px;
+    padding-left: 20px;
+  }
+  .request-form2 h3 {
+    padding-top: 170px;
+    padding-right: 20px;
+    padding-bottom: 48px;
+  }
+  .request-form2 label {
+    color: #ffffff80;
+  }
+  .first-checkbox3 {
+    text-align: left;
+    width: 340px;
+  }
+  .text {
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .request-form2 input {
+    width: 340px;
+    background-color: none;
+    border-color: #00000008;
+  }
+  .request-form2 label input {
+    margin: 0;
+  }
+  .request-form2 div {
+    display: block;
+    width: 340px;
+  }
+  .request-form2 div input {
+    width: 340px;
+    margin-bottom: 58px;
+  }
+
+  .request-form2 input::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+
+  .request-form2 input::-moz-placeholder {
+    color: #ffffff;
+  }
+
+  .request-form2 input:-ms-input-placeholder {
+    color: #ffffff;
+  }
+
+  .request-form2 input::-ms-input-placeholder {
+    color: #ffffff;
+  }
+
+  .request-form2 input::placeholder {
+    color: #ffffff;
+  }
+  .request-form2 input:focus {
+    color: #ffffff;
+  }
+  .input-question {
+    width: 340px;
+    padding: 0;
+  }
+  .first-checkbox3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 52px;
+  }
+  .submit-button {
+    width: 340px;
+    height: 51px;
+    background-color: #e3b873;
+  }
+  .map {
+    width: 340px;
+    height: 248px;
+    order: 1;
+  }
+  .section-address p {
+    order: 2;
+  }
+  .contact-icons {
+    order: 3;
   }
 }
 /*-----------широкий экран более 2100px-----------------*/

@@ -20,6 +20,8 @@ _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материа�
 
 ## Мобильная версия 859px - 375px
 
+![image](https://github.com/AndrewMosh/lnd/blob/main/images/mobile.gif)
+
 ## Large версия для экранов больше 1440px
 
 ![image](https://github.com/AndrewMosh/lnd/blob/main/images/large.gif)

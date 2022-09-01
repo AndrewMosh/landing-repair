@@ -1329,6 +1329,7 @@ footer {
     text-align: left;
     margin-top: -4px;
     margin-right: 20px;
+    -ms-grid-columns: (155px) [2];
     grid-template-columns: repeat(2, 155px);
     row-gap: 27px;
   }
@@ -1524,20 +1525,30 @@ footer {
     display: none;
   }
   .request-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   .section-clients {
     display: none;
   }
   .container-fantas {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
   }
   .list-fantas {
     padding-left: 30px;
   }
   .list-fantas ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .list-fantas ul li {
@@ -1604,6 +1615,8 @@ footer {
     width: 375px;
     display: block;
     background-color: #131313;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
     margin-left: 0;
     padding-left: 20px;
@@ -1683,10 +1696,14 @@ footer {
   .map {
     width: 340px;
     height: 248px;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
     margin-bottom: 60px;
   }
   .section-address p {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
     font-size: 18px;
     max-width: 320px;
@@ -1695,6 +1712,8 @@ footer {
     display: none;
   }
   .contact-icons {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
   }
   .contact-icons img {

@@ -986,6 +986,7 @@ hr {
   justify-content: center;
   height: 954px;
   background-image: url(images/bg-building.svg);
+  background-size: 100% 100%;
   margin-top: -99px;
 }
 
@@ -1349,7 +1350,7 @@ footer {
   }
 }
 /******************responsive online control********************/
-@media only screen and (max-width: 859px) and (min-width: 320px) {
+@media only screen and (max-width: 874px) and (min-width: 320px) {
   .camera-control {
     margin-bottom: 20px;
   }
@@ -1518,7 +1519,32 @@ footer {
   }
 }
 /*--------------------responsive wildest fantasies-------------*/
-@media only screen and (max-width: 1300px) and (min-width: 320px) {
+@media only screen and (max-width: 1257px) and (min-width: 275px) {
+  .photos-fantas {
+    display: none;
+  }
+  .request-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-clients {
+    display: none;
+  }
+  .container-fantas {
+    justify-content: flex-start;
+  }
+  .list-fantas {
+    padding-left: 30px;
+  }
+  .list-fantas ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-fantas ul li {
+    margin-left: 45px;
+  }
+}
+@media only screen and (max-width: 874px) and (min-width: 320px) {
   .container-fantas:not(.list-fantas h2) {
     display: none;
   }
@@ -1563,7 +1589,7 @@ footer {
   }
 }
 /*--------------------responsive address and footer-------------*/
-@media only screen and (max-width: 1300px) and (min-width: 320px) {
+@media only screen and (max-width: 1000px) and (min-width: 321px) {
   .section-address {
     background-image: none;
     background-color: #131313;

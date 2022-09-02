@@ -55,6 +55,7 @@ section,
 header,
 footer {
   margin: 0 auto;
+  max-width: 2500px;
 }
 
 nav > ul {
@@ -986,7 +987,7 @@ hr {
   justify-content: center;
   height: 954px;
   background-image: url(images/bg-building.svg);
-  background-size: 100% 100%;
+  background-size: cover;
   margin-top: -99px;
 }
 

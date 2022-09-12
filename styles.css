@@ -282,10 +282,12 @@ nav ul li a {
 }
 .arrow1-completed {
   margin-right: 26px;
+  cursor: pointer;
 }
 
 .arrow2-completed {
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .active,

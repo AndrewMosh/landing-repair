@@ -14,11 +14,11 @@
 
 _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материалы SF_
 
-## слайдер для desktop
+## Cлайдер для desktop
 
 ![image](https://github.com/AndrewMosh/lnd/blob/main/images/gifDesk.gif)
 
-## слайдер для mobile
+## Cлайдер для mobile
 
 ![image](https://github.com/AndrewMosh/lnd/blob/main/images/mobile-slider.gif)
 

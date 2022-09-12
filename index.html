@@ -55,10 +55,10 @@
         <nav class="middlenav">
           <ul>
             <li>
-              <a class="current underlined" href="">Rostov-on-Don, Admiral</a>
+              <a class="tab current underlined" onclick="currentSlide(1)">Rostov-on-Don, Admiral</a>
             </li>
-            <li><a href="">Sochi Thieves</a></li>
-            <li><a href="">Rostov-on-Don Patriotic</a></li>
+            <li><a class="tab" onclick="currentSlide(2)">Sochi Thieves</a></li>
+            <li><a class="tab" onclick="currentSlide(3)">Rostov-on-Don Patriotic</a></li>
           </ul>
         </nav>
 
@@ -66,7 +66,7 @@
           <div class="subcompleted">
             <h2>
               Completed <br>
-              projects
+              projects <span><img class="stupidLine" style='padding-bottom: 9px; padding-left: 30px;'src="images/line.png" alt=""></span>
             </h2>
             <p>
               Only a small part of the work performed by our company is
@@ -76,19 +76,33 @@
             </p>
 
             <div class="slideshow-container">
-              <div>
+              <div class="mySlidesM">
                 <img
                   class="mobileimage"
-                  src="images/pic3.png"
+                  src="images/slide1.png"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="mySlidesM">
+                <img
+                  class="mobileimage"
+                  src="images/slide2.png"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="mySlidesM">
+                <img
+                  class="mobileimage"
+                  src="images/slide3.png"
                   style="width: 100%"
                 />
               </div>
 
               <!-- Next and previous buttons -->
-              <a class="buttonprev"
+              <a class="buttonprev" 
                 ><img src="images/gallerybutton.png" alt=""
               /></a>
-              <a class="buttonnext"
+              <a class="buttonnext" 
                 ><img src="images/gallerybutton2.png" alt=""
               /></a>
             </div>
@@ -115,18 +129,33 @@
               </div>
             </div>
             <div class="dots-completed">
-              <a class="arrow1-completed" href="#"
+              <a class="arrow1-completed" onclick="plusSlides(-1)" 
                 ><img src="images/ar1.png" alt=""
               /></a>
-              <a href="#" class="dot-completed active"></a>
-              <a href="#" class="dot-completed"></a>
-              <a href="#" class="dot-completed"></a>
-              <a class="arrow2-completed" href="#"
+              <span class="dot-completed active" onclick="currentSlide(1)"></span>
+              <span class="dot-completed" onclick="currentSlide(2)"></span>
+              <span class="dot-completed" onclick="currentSlide(3)"></span>
+              <a class="arrow2-completed" onclick="plusSlides(1)" 
                 ><img src="images/ar2.png" alt=""
               /></a>
             </div>
           </div>
-          <img class="hall-completed" src="images/pic2.png" alt="cozy hall" />
+          <div class="slideshow-container3">
+
+            <div class="mySlides">
+              <img class="hall-completed" src="images/slide1.png" alt="cozy hall" />
+            </div>
+            <div class="mySlides">
+              <img class="hall-completed" src="images/slide2.png" alt="cozy hall" />
+            </div>
+            <div class="mySlides">
+              <img class="hall-completed" src="images/slide3.png" alt="cozy hall" />
+            </div>
+          
+          
+          
+          
+        </div>
         </div>
       </div>
     </section>
@@ -424,5 +453,6 @@
       <div><button class="request-button">request a call</button></div>
     </div>
   </footer>
+  <script src="slider.js"></script>
   </body>
 </html>

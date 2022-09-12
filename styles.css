@@ -292,6 +292,9 @@ nav ul li a {
 .dot-completed:hover {
   background-color: #ffffff;
 }
+.tab {
+  cursor: pointer;
+}
 
 /*-------------------online control-----------------------------------*/
 
@@ -1281,6 +1284,9 @@ footer {
     -ms-flex-align: center;
     align-items: center;
   }
+  .stupidLine {
+    display: none;
+  }
   .subcompleted p br {
     display: none;
   }
@@ -1301,7 +1307,8 @@ footer {
   .mobileimage {
     display: inline-block;
     margin: 12px 0 37px 0;
-    max-width: 100%;
+    max-width: 340px;
+    max-height: 242px;
   }
   .slideshow-container {
     max-width: 2000px;

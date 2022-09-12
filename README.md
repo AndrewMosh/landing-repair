@@ -1,4 +1,4 @@
-# Лабораторная работа №2 в рамках курса по frontend-разработке школы SF (Верстка лэндинга по макету)
+# Лабораторная работа №2 в рамках курса по frontend-разработке школы SF (Верстка лэндинга по макету) + JS слайдер для мобильной и десктопной версий
 
 ## Выполнил студент специализации "Frontend-разработчик" школы SkillFactory, Мощенко Андрей Александрович, группа FR-1010
 
@@ -8,11 +8,15 @@
 
 ## Основные инструменты разработчика
 
-**HTML, CSS, GIT, GIThub, autoprefixer, Figma, Google Chrome devtool**
+**HTML, CSS, GIT, GIThub, autoprefixer, Figma, Google Chrome devtool, JavaScript**
 
 ## Вспомогательные средства разработчика
 
 _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материалы SF_
+
+## слайдер для desktop
+
+## слайдер для mobile
 
 ## Home версия для экранов 1440px - 1100px
 

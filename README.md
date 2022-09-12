@@ -18,6 +18,8 @@ _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материа�
 
 ## слайдер для mobile
 
+![image](https://github.com/AndrewMosh/lnd/blob/main/images/mobile-slider.gif)
+
 ## Home версия для экранов 1440px - 1100px
 
 ![image](https://github.com/AndrewMosh/lnd/blob/main/images/home.gif)

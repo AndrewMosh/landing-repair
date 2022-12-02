@@ -1,12 +1,48 @@
+let repairTime = document.querySelector(".repairTime");
+let city = document.querySelector(".city");
+let apartArea = document.querySelector(".apartArea");
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides((slideIndex += n));
+  showText(slideIndex);
 }
-
+function showText(n) {
+  if (n === 1) {
+    city.textContent = "Rostov-on-Don, LCD admiral";
+    repairTime.textContent = `3.5 months`;
+    apartArea.textContent = `81 m2`;
+  }
+  if (n === 2) {
+    city.textContent = "Sochi thieves";
+    repairTime.textContent = `4 months`;
+    apartArea.textContent = `105 m2`;
+  }
+  if (n === 3) {
+    city.textContent = "Rostov-on-Don, patriotic";
+    repairTime.textContent = `3 months`;
+    apartArea.textContent = `93 m2`;
+  }
+}
 function currentSlide(n) {
   showSlides((slideIndex = n));
+  if (n === 1) {
+    city.textContent = "Rostov-on-Don, LCD admiral";
+    repairTime.textContent = `3.5 months`;
+    apartArea.textContent = `81 m2`;
+  }
+  if (n === 2) {
+    city.textContent = "Sochi thieves";
+    repairTime.textContent = `4 months`;
+    apartArea.textContent = `105 m2`;
+  }
+  if (n === 3) {
+    city.textContent = "Rostov-on-Don, patriotic";
+    repairTime.textContent = `3 months`;
+    apartArea.textContent = `93 m2`;
+  }
 }
 
 function showSlides(n) {
@@ -14,12 +50,14 @@ function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot-completed");
   let tabs = document.getElementsByClassName("tab");
+
   if (n > slides.length) {
     slideIndex = 1;
   }
   if (n < 1) {
     slideIndex = slides.length;
   }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -51,6 +89,7 @@ showSlidesM(slideIndexM);
 
 function plusSlidesM(n) {
   showSlidesM((slideIndexM += n));
+  showText(slideIndexM);
 }
 
 function currentSlideM(n) {
@@ -60,6 +99,7 @@ function currentSlideM(n) {
 function showSlidesM(n) {
   let i;
   let slidesM = document.getElementsByClassName("mySlidesM");
+
   if (n > slidesM.length) {
     slideIndexM = 1;
   }

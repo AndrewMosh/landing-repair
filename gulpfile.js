@@ -5,7 +5,6 @@ const baseDir = "./" + project_flr + "/";
 const fs = require("fs");
 const pathFiles = "/assets/template/";
 const outPathFiles = "/assets/template/";
-var gulp = require("gulp");
 var ghPages = require("gulp-gh-pages");
 
 // main path

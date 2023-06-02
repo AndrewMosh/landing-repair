@@ -7,9 +7,6 @@ const pathFiles = "/assets/template/";
 const outPathFiles = "/assets/template/";
 var gulp = require("gulp");
 var ghPages = require("gulp-gh-pages");
-gulp.task("deploy", function () {
-  return gulp.src("./dist/**/*").pipe(ghPages());
-});
 
 // main path
 let path = {
@@ -264,7 +261,9 @@ let build = gulp.series(
   gulp.parallel(css, video, js, images, fonts)
 );
 let watch = gulp.parallel(build, watchFiles, browserSync);
-
+gulp.task("deploy", function () {
+  return gulp.src("./dist/**/*").pipe(ghPages());
+});
 exports.fontsStyle = fontsStyle;
 exports.fonts2woff = fonts2woff;
 exports.fonts = fonts;
